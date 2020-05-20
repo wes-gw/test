@@ -23,7 +23,7 @@ The goal of this platform is to build a data platform which will enable Glasswin
 
 Originally there were multiple projects supporting different purposes, and most of them have gone through iterations. The platform is defined as a central data platform that consolidates all of those projects.  This wiki will host current and historical documentations on all related projects. 
 
-Reference here for the [full design document]() on the platform.
+Reference here for the [full design document](PlatformDesign.md) on the platform.
 
 # Data Pipelines
 

@@ -5,7 +5,8 @@
 * [Data](#data)
   + [Talent Data](#talent-data)
     - [Goals](#goals)
-    - [Sources & Pipeline](sources-pipeline)
+    - [Pipelines](#pipelines)
+    - [Challenges](#challenges)
   + [Company Data](#company-data)
     - [Goals](#goals-2)
   + [News Data](#twitter-api)
@@ -39,7 +40,7 @@ The Talent Database project started as a separate project: to build a database o
 - Make the search relevant and seamless by adding appropriate labels and notes to people
 - Collect data from different sources, de-dup it and correct data to have the most correct version
 
-### Sources & Pipeline
+### Pipelines
 
 - Background and career Information for people who may be of interest to Glasswing’s portfolio companies. Data will be collected from public sources (such as LinkedIn, CrunchBase, AngelList, and potentially others), as well as from private sources (e.g., talent form on the Glasswing Web site, notes from Glasswing staff)
 - Background and career information for LPs, VCs, and entrepreneurs whom we email and invite to events from MailChimp, Event Kingdom, and Affinity

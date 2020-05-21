@@ -54,7 +54,7 @@ The media covers startups daily and startups also releases numerous press releas
 # Database
 The database is the cloud SQL database that host all of our data for the Glasswing Platform (People data, Company data, and news data). It was developed using Postgres SQL and deployed to Google Cloud SQL. Originally projects related to people and company data were stored differently, but we have consolidated the original company database attributes schema with our people database into a single database that can support different uses. 
 
-## database-design
+## Database Design
 
 ## Google Cloud SQL
 

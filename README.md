@@ -5,10 +5,21 @@
 * [Data](#data)
   + [Talent Data](#talent-data)
     - [Goals](#goals)
-    - [Pipelines](#pipelines)
+    - [Pipeline](#pipeline)
+      - [LinkedIn](#linkedin)
+      - [CrunchBase](#crunchbase)
+      - [Talent Tracker Form](#talent-tracker-form)
+      - [AskFora](#askfora)
+      - [Affinity](#affinity)
     - [Challenges](#challenges)
   + [Company Data](#company-data)
     - [Goals](#goals-2)
+    - [Pipeline](#pipeline-2)
+      - [CrunchBase](#crunchbase-2)
+      - [Deal Tracker Form](#deal-tracker-form)
+      - [Affinity](#affinity)
+      - [Craft.IO](#craft)
+    - [Challenges](#challenges-2)
   + [News Data](#twitter-api)
     - [Goals](#goals-3)
   + [Deduplication](#deduplication)
@@ -40,7 +51,7 @@ The Talent Database project started as a separate project: to build a database o
 - Make the search relevant and seamless by adding appropriate labels and notes to people
 - Collect data from different sources, de-dup it and correct data to have the most correct version
 
-### Pipelines
+### Pipeline
 
 - Background and career Information for people who may be of interest to Glasswing’s portfolio companies. Data will be collected from public sources (such as LinkedIn, CrunchBase, AngelList, and potentially others), as well as from private sources (e.g., talent form on the Glasswing Web site, notes from Glasswing staff)
 - Background and career information for LPs, VCs, and entrepreneurs whom we email and invite to events from MailChimp, Event Kingdom, and Affinity
@@ -82,7 +93,7 @@ Affinity is our CRM and automatically aggregated from our Glasswing email and ca
 
 (Expand on if we du-dup or have a process to ingest data into our SQL database)
 
-### Problems & Challenges
+### Challenges
 
 - How do we keep the database up to date?
 
@@ -119,7 +130,7 @@ The company database originally started solely as the machine learning database.
 - Record relevant information as deals move down or out the pipeline in accordance with GW decisions
 - Record operational information about portfolio companies to enable the development of models which can monitor operational variables (burn rate, staffing, bug rates etc.) and anticipate issues, and help monitor the performance of portfolio companies.
 
-### Sources & Pipeline
+### Pipeline
 
 - Information about companies, investors, and people from CrunchBase and/or other investment-focused public sources, filings, relevant press, private sources including Glasswing’s own assessments to create company histories detailed in the Appendix; Note that the research data can include portfolio or deal flow companies (3.2.2 below)
 - Semi-automatically extract data for the database from various sources

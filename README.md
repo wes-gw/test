@@ -62,7 +62,7 @@ The database is the cloud SQL database that host all of our data for the Glasswi
 
 ## Requirements
 
-## Front End
+# Front End
 
 # Modeling
 

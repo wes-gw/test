@@ -89,3 +89,5 @@ Affinity is our CRM and automatically aggregated from our Glasswing email and ca
 - Using existing solution from our portfolio companies.
 
     AskFora is a portfolio company that helps people hire people based on data they aggregate automatically. There is an ongoing conversation with Omer (the founder) to use their platform for our talent use cases. It's an app that aggregates multiple sources of publicly available information about people and adds searching capabilities on job experience/expertise. Google Datastore and Big Query are used for their back-end, which can become one of the data enrichment channels for Glasswing's talent data content and their app itself can also be a viable solution. Refer to the documents on box for more details and their API and data architecture.
+    
+[Back to Homepage](README.md)

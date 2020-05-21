@@ -20,7 +20,7 @@
       - [Affinity](#affinity)
       - [Craft.IO](#craft)
     - [Challenges](#challenges-2)
-  + [News Data](#twitter-api)
+  + [News Data](#news-data)
     - [Goals](#goals-3)
   + [Deduplication](#deduplication)
 * [Database](#database)
@@ -162,12 +162,10 @@ From CrunchBase we were able to obtain 921k people's CrunchBase profiles, howeve
 The media covers startups daily and startups also releases numerous press releases.  The topics range from funding events to product launches. The information in the text articles is potentially a rich complement to our structured datasets. Articles are timestamped and can contain useful signals for our modeling experiments. We built a pipeline that uses Feedly to extract articles that mention the companies that we are tracking. 
 [Full Documentation]()
 
-### Goals
 
 - Accumulate startup news articles and associate them with the startups that we are tracking in our database
 - The full text of the articles along with published data are stored in the database
 
-### Data & Sources
 
 *Feedly API**
 

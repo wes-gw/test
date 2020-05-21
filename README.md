@@ -17,9 +17,10 @@
   + [Ver 1](#database-design)
   + [Ver 2](#google-cloud-sql)
   + [Ver 3](#google-cloud-sql)
-* [Workflows](#workflows)
-  + [Database Design](#database-design)
-  + [Google Cloud SQL](#google-cloud-sql)
+* [Other Workflows](#other-workflows)
+  + [Affinity Mailchimp](#affinity-mailchimp)
+  + [New Startup Detector](#new-startup-detector)
+* [Risks](#risks)
 * [Systems](#systems)
 * [Maintaining Documentation](#maintaining-documentation)
     
@@ -68,6 +69,14 @@ The database is the cloud SQL database that host all of our data for the Glasswi
 # Other Workflows
 ## Affinity Mailchimp
 ## New startup notification  
+
+# Risks
+# Appendix
+##Airtable
+##AskFora
+##LinkedIn
+##CrunchBase
+
 
 # Maintaining Documentation
 This documentation serves as the central knowledge base and is written in MarkDown file. Reference here for instructions on how to update this file and track verisons. 

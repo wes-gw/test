@@ -157,6 +157,8 @@ From CrunchBase we were able to obtain 921k people's CrunchBase profiles, howeve
 *Note: LinkedIn also has the most accurate number on the size of companies, which can be a good indicator for growth overtime. SourceSrub, offers that as a metrics and they are able to obtain the numbers by hiring cheap labor to manually check and record the number of employees regularly*
 
 #### Deal Tracker form
+#### Affinity
+#### Craft
 
 ## News Data
 The media covers startups daily and startups also releases numerous press releases.  The topics range from funding events to product launches. The information in the text articles is potentially a rich complement to our structured datasets. Articles are timestamped and can contain useful signals for our modeling experiments. We built a pipeline that uses Feedly to extract articles that mention the companies that we are tracking. 

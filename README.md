@@ -17,9 +17,11 @@
   + [Ver 1](#database-design)
   + [Ver 2](#google-cloud-sql)
   + [Ver 3](#google-cloud-sql)
-* [Other Workflows](#other-workflows)
+* [Workflows](#workflows)
+* [Other Projects](#other-projects)
   + [Affinity Mailchimp](#affinity-mailchimp)
   + [New Startup Detector](#new-startup-detector)
+  + [AI Index](#ai-index)
 * [Risks](#risks)
 * [Systems](#systems)
 * [Maintaining Documentation](#maintaining-documentation)
@@ -66,9 +68,12 @@ The database is the cloud SQL database that host all of our data for the Glasswi
 ## Ver 2.
 ## Ver 3.
 
-# Other Workflows
+# Current Workflows
+
+# Other Projects
 ## Affinity Mailchimp
 ## New startup notification  
+## AI Index
 
 # Risks
 # Appendix

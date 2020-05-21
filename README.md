@@ -6,17 +6,22 @@
   + [Talent Data](#talent-data)
   + [Company Data](#company-data)
   + [News Data](#news-data)
-    - [Goals](#goals-3)
   + [Deduplication](#deduplication)
 * [Database](#database)
   + [Database Design](#database-design)
   + [Google Cloud SQL](#google-cloud-sql)
+  + [Use Cases](#use-cases)
+  + [Requirements](#requirements)
+  + [Front End](#front-end)
 * [Modeling](#modeling)
-  + [Database Design](#database-design)
-  + [Google Cloud SQL](#google-cloud-sql)
+  + [Ver 1](#database-design)
+  + [Ver 2](#google-cloud-sql)
+  + [Ver 3](#google-cloud-sql)
 * [Workflows](#workflows)
   + [Database Design](#database-design)
   + [Google Cloud SQL](#google-cloud-sql)
+* [Systems](#systems)
+* [Maintaining Documentation](#maintaining-documentation)
     
 # Overview
 The goal of this platform is to build a data platform which will enable Glasswing Ventures (“Glasswing”) to store, manage, and use a variety of proprietary information (“content”) in support of a broad range of investing and management decisions. The platform will assist Glasswing on multiple facets, including fundraising, portfolio support (both with recruiting talent and customers) & monitoring, deal sourcing, screening & diligence, as well as marketing and raising brand awareness
@@ -43,4 +48,27 @@ The media covers startups daily and startups also releases numerous press releas
 
 # Database
 The database is the cloud SQL database that host all of our data for the Glasswing Platform (People data, Company data, and news data). It was developed using Postgres SQL and deployed to Google Cloud SQL. Originally projects related to people and company data were stored differently, but we have consolidated the original company database attributes schema with our people database into a single database that can support different uses. 
-[Full Documentation]()
+
+## database-design
+
+## Google Cloud SQL
+
+## Use Cases
+
+## Requirements
+
+## Front End
+
+# Modeling
+
+## Ver 1.
+## Ver 2.
+## Ver 3.
+
+# Other Workflows
+## Affinity Mailchimp
+## New startup notification  
+
+# Maintaining Documentation
+This documentation serves as the central knowledge base and is written in MarkDown file. Reference here for instructions on how to update this file and track verisons. 
+

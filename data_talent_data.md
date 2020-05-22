@@ -14,7 +14,8 @@
 
 
 ## Overview
-The Talent Database project started as a separate project: to build a database of people in the Glasswing network from LinkedIn connections. Originally the people data are in Airtable as a separate database. Reference here for documentation on the first version of the project. To accommodate the complexity of the dataset, we consolidated the data into a cloud SQL database along with other data for other projects. Although the project started based on Linked connections, we are expanding our sources.
+
+The Talent Database project started as a separate project: to build a database of people in the Glasswing network from LinkedIn connections. Originally the people data are in Airtable as a separate database. Reference [here](talent_database.md) for documentation on the first version of the project. To accommodate the complexity of the dataset, we consolidated the data into our [cloud SQL database]().
 
 
 ## Goals

@@ -1,7 +1,7 @@
 # Glossary
 
 - [x]  [Search](#search)
-- [ ]  [Filter & Sort](#filter)
+- [ ]  [Filter and Sort](#filter-and-sort)
 - [ ]  [Tag](#tag)
 
 
@@ -22,7 +22,7 @@ Allow users to quickly search lists of people or companies by key words
 ### Status: Fulfilled
 
 
-# Filter & Sort
+# Filter and Sort
 
 ### Description
 

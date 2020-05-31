@@ -149,6 +149,6 @@ We store the people, company, deal information, and news articles in a unified i
 | --- | --- |
 |Description|Different users will have different access privileges|
 |Purpose|Control access to potentially sensitive information|
-|Required|Yes|
+|Required|Yes |
 |Status|Fufilled|
 |Comments|The privileges for different users have yet to be defined, but it is a feature of Google Cloud SQL.|

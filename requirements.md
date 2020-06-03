@@ -215,6 +215,7 @@ Features applied specifically to company data
 |Status|In Progress|
 |Comment|This is our ongoing [modeling effort]().|
 
+|Feature|Fall off Rate|
 | --- | --- |
 |Description|One of the measurements of the platform should be that a lot of deals go offline and are made in person.|
 |Purpose|A worthy goal would be to track at which point a deal would go offline, or people's decision making would go offline|

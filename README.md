@@ -75,16 +75,7 @@ The database is the cloud SQL database that host all of our data for the Glasswi
 We designed the database to accomadate as many requirements as possible. After evaluating different options,  we developed it using Postgres SQL and deployed it to Google Cloud SQL. The documentation contains our design, structure, schema, and analysis of the different options. The use cases and requirements of the Glasswing Platform are also included in this section. 
 
 ## Database Design
-To accomendate our most of our [use cases](#use-cases) and [requirements](#requirements), we evaluated multiple designs. The most diffcult task was [FEATURE F: Timestamp Tracking and Version control](). We built tables in SQL in a way that would track timestamp updates of companies. For our schema, we consolidated multiple attributes and added attributes that satisify our use cases and reuirements.
-List of attributes:
-- [Company Attributes]()
-- [Talent Schema]()
-
-We document the design of our database using a schema UML and verisoned and timestamped data document language file. The schema UML details presents a graphical representations of all the tables, fields, and relationships. The data document language file provides the SQL script that creates the entire database, detailing all tables, fields, data types, and relationships.
-- [UML]()
-- [Data document language file]()
-- [How to backup and pdate Database Documentation]()
-
+To accommodate our most of our use cases and requirements, we evaluated multiple designs and tested different NoSQL and SQL databases. Ultimately, we landed on Postgres SQL. Our design revolved around the most difficult feature requirement: Timestamp Tracking. The structure is designed in a way that would track updates with timestamps instead of simply overwriting data. In this section, we document the structure and schema of our database, as well as the reasons behind design decisions. 
 
 ## Google Cloud SQL
 Google Cloud SQL is GCP's managed cloud database serivce that host our database. Since the database was developed locally using PostgreSQL, our engine is still PostgresSQL. 

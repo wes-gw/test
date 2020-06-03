@@ -207,7 +207,6 @@ Features applied specifically to company data
 |Status|Not Started|
 |Comment|This is a low hanging fruit. We can set up a pipeline to filter the database with defined criteria. The intergration with Affinity should be set up so we also have data on our sourcing list.|
 
-# Features applied specifically to talent data schema 
 |Feature|Startup success score|
 | --- | --- |
 |Description|Develop a success score based on company’s content to understand its potential into moving down or out the pipeline|
@@ -216,8 +215,6 @@ Features applied specifically to company data
 |Status|In Progress|
 |Comment|This is our ongoing [modeling effort]().|
 
-
-# Fall off rate
 | --- | --- |
 |Description|One of the measurements of the platform should be that a lot of deals go offline and are made in person.|
 |Purpose|A worthy goal would be to track at which point a deal would go offline, or people's decision making would go offline|

@@ -2,7 +2,7 @@
 We store the people, company, deal information, and news articles in a unified infrastructure, these three data categories are stored in our database schema. The data are interconnected across the categories in various ways (e.g., the company’s dataset will refer to staff in the people set). We decoupled requirements of the database and UI to make development objectives clearer. The features and functionalities below pertain only to the database. For features and functionalities related to a UI, refer to this section.
 
 # Glossary
-
+General
 - [x]  [Search](#search)
 - [x]  [Filter and Sort](#filter-and-sort)
 - [ ]  [Tag](#tag) - In Progress
@@ -17,14 +17,17 @@ We store the people, company, deal information, and news articles in a unified i
 - [x]  [Compare](#compare)
 - [ ]  [Integration](#integration) - In Progress
 - [x]  [Access Control](#access-control)
+Features applied specifically to talent data
 - [ ]  [Tier Level](#tier-level) - In Progress
 - [ ]  [Email notification](#email-notification) - Not Started
 - [ ]  [Email and Business Card Reader](#email-and-business-card-reader) - Not Started
 - [ ]  [LinkedIn Profile Extraction](#linkedin-profile-extraction) - In Progress
+Features applied specifically to company data
 - [ ]  [Automated sourcing list](#automated-sourcing-list) - Not Started
 - [ ]  [Startup success score](#startup-sucess-score) - Not Started
 - [ ]  [Fall off rate](#fall-off-rate) - Not Started
 
+# General
 ## Search
 |Feature|Search|
 | --- | --- |

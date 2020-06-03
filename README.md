@@ -49,7 +49,7 @@ Download the [Glasswing Platform Design Document]() as a Word document.
 # Data
 The data content we collect and store can be divided up to four sections: Talent, Company, News, and Twitter. For each section, we describe the goal of data collection, the sources and pipelines, and the related challenges. Since data from different sources are all aggregated and stored in a single SQL Database, we also define our process for data deduplication.
 
-## [Talent Data](Talent Data.md)
+## [Talent Data](Talent&#32;Data.md)
 The talent data stem from the Talent Database project. The Talent Database project started as a separate project - a database of people in the Glasswing network from LinkedIn connections. Originally the people data was in Airtable as a separate database. To accommodate the complexity of the dataset, we consolidated the data into our cloud SQL database.
 [first version of the project](data_talent_data_history.md)
 [Current Documentation](data_talent_data.md)

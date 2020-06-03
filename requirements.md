@@ -17,11 +17,13 @@ General
 - [x]  [Compare](#compare)
 - [ ]  [Integration](#integration) - In Progress
 - [x]  [Access Control](#access-control)
+
 Features applied specifically to talent data
 - [ ]  [Tier Level](#tier-level) - In Progress
 - [ ]  [Email notification](#email-notification) - Not Started
 - [ ]  [Email and Business Card Reader](#email-and-business-card-reader) - Not Started
 - [ ]  [LinkedIn Profile Extraction](#linkedin-profile-extraction) - In Progress
+
 Features applied specifically to company data
 - [ ]  [Automated sourcing list](#automated-sourcing-list) - Not Started
 - [ ]  [Startup success score](#startup-sucess-score) - Not Started

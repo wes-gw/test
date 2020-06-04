@@ -8,7 +8,7 @@ The company database is designed to hold a variety of attributes about companies
 
 Schematic overlaps exist between the two datasets. For both dataset, we are tracking where people currently work and worked in the past. The difference is the company dataset is startup orientated and the talent dataset is focused on only Glasswing-related people. The company dataset includes companies from CrunchBase and their people whereas the talent data dataset only pertains to Glasswing related people. For documentation on deduplication, refer back to the [Deduplication section](). 
 
-We then came to the conclusion to create a SQL database serving as a single source of truth. The database is developed to satisfying a set of defined feature requirements and use cases. All of our data content can be stored in a unified data schema, accommodating various data structure and relationships. 
+We then came to the conclusion to create a SQL database serving as a single source of truth. The database is developed to satisfy a set of defined feature requirements and use cases. All of our data content can be stored in a unified data schema, accommodating various data structure and relationships. 
 
 # Design
 

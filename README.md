@@ -60,7 +60,7 @@ The data content we collect and store can be divided up to four sections: Talent
 ## Talent Data
 The talent data stem from the Talent Database project. The Talent Database project started as a separate project - a database of people in the Glasswing network from LinkedIn connections. Originally the people data was in Airtable as a separate database. To accommodate the complexity of the dataset, we consolidated the data into our cloud SQL database.
 - [first version of the project](data_talent_data_history.md)
-- [Current Documentation](Talent&#32;Data.md)
+- [Current Documentation](Documentations/Data/Talent&#32;Data.md)
 
 ## Company Data
 We accumulated multitudes of datasets from various sources for our modeling experiments to predict startup success. To centralize data storage and allow data pipelines to track updates dynamically, we set out to build a machine learning database. We evaluated different solutions and went through multiple iterations. Utlimately, we consolidted the data with all of our other data into our single SQL database as the Glasswing platform to service a variety of requests. 

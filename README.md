@@ -51,6 +51,8 @@ The documentation in this repository serves as the central knowledge base, writt
 
 [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 
+<br>
+<br>
 
 # Data
 The data content we collect and store can be divided up to four sections: Talent, Company, News, and Twitter. For each section, we describe the goal of data collection, the sources and pipelines, and the related challenges. Since data from different sources are all aggregated and stored in a single SQL Database, we also define our process for data deduplication.

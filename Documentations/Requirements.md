@@ -183,7 +183,7 @@ Features applied specifically to company data
 
 ## Email and Business Card Reader
 |Feature|Email and Business Card Reader|
-| --- | --- |
+| --- | --- | 
 |Description|Ability to scrape emails and business cards and extract information (name, title, email, phone numbers, company name, title, social media profiles, etc.). The data can be ingested into the database to the corresponding contacts, and new contact is created if not already in the database.|
 |Purpose|Help to keep track of new connections made automatically from emails and business cards.|
 |Required|Yes|

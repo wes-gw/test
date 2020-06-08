@@ -13,14 +13,12 @@
 # Fundraising
 **Front-end dependent**
 
-Partners look for new sources to raise the next fund. They need to search, sort, filter, tag, compare and export information regarding LPs, family offices, institutional funds etc. It’s important to be able to index relationships as they progress or weaken. 
-
-[Section 5.2 Feature A: connection score]. 
+Partners look for new sources to raise the next fund. They need to search, sort, filter, tag, compare and export information regarding LPs, family offices, institutional funds etc. It’s important to be able to index relationships as they progress or weaken. [[Tier Level](./Requirements.md#tier-level)]
 
 ## Ownership - Partners
 ### Responsibilities
-- Find information about LPs, family offices, institutional funds etc. [Section 5.1 Feature A: Search, B: Filter & Sort, M: Compare, D: Export]
-- Tagging existing sources of fundraising versus new and potential ones, and adding notes such as last communication and medium of communication, and follow up, dead end, etc. [Section 5.1 Feature C: Tag, G: Add Notes]
+- Find information about LPs, family offices, institutional funds etc. [[Search](./Requirements.md#search), [Filter and Sort](./Requirements.md#filter-and-sort),[Compare](./Requirements.md#compare), [Export](./Requirements.md#export)]
+- Tagging existing sources of fundraising versus new and potential ones, and adding notes such as last communication and medium of communication, and follow up, dead end, etc. [[Tag](./Requirements.md#tag), [Add Notes](./Requirements.md#add-notes)]
 - Manually entering new referrals into the database that’s outside of our network [[Import and Edit](./Requirements.md#import-and-edit)]
 
 ### Automation

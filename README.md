@@ -79,6 +79,17 @@ Twitter is a active platform for startups, investors, and thougt leaders. Most s
 
 <br>
 <br>
+# [Use Cases](database_use_cases.md)
+Since we consolidated data from different project into a single Glasswing Platform, our database has to support a vairety of use cases. In this section we define all of our use cases. 
+
+<br>
+<br>
+
+# [Requirements](database_requirements.md)
+We hope to store the people, company, and deal information in a unified infrastructure, each of these three data categories will have their own schema. The data will be interconnected across the categories in various ways (e.g., the company’s dataset will refer to staff in the people set), but the categories will be in standalone forms. For more a more detailed view, refer to the schema shown in the [UML]().
+
+<br>
+<br>
 
 # Database
 The database is the cloud SQL database that host all of our data for the Glasswing Platform. 
@@ -88,15 +99,7 @@ We designed the database to accomadate as many requirements as possible. After e
 To accommodate our most of our use cases and requirements, we evaluated multiple designs and tested different NoSQL and SQL databases. Ultimately, we landed on Postgres SQL. Our design revolved around the most difficult feature requirement: Timestamp Tracking. The structure is designed in a way that would track updates with timestamps instead of simply overwriting data. In this section, we document the structure and schema of our database, as well as the reasons behind design decisions. 
 
 ## Google Cloud SQL
-Google Cloud SQL is GCP's managed cloud database serivce that host our database. Since the database was developed locally using PostgreSQL, our engine is still PostgresSQL. 
-- Connecting to Cloud SQL
-- Read and Write to the database
-
-## [Use Cases](database_use_cases.md)
-Since we consolidated data from different project into a single Glasswing Platform, our database has to support a vairety of use cases. In this section we define all of our use cases. 
-
-## [Requirements](database_requirements.md)
-We hope to store the people, company, and deal information in a unified infrastructure, each of these three data categories will have their own schema. The data will be interconnected across the categories in various ways (e.g., the company’s dataset will refer to staff in the people set), but the categories will be in standalone forms. For more a more detailed view, refer to the schema shown in the [UML]().
+After evaluating different services for cloud databases, we ultimately landed on Google Cloud SQL. Google Cloud Platform offers a robust set of services for Cloud Machine Learning beyond data base and data storage. As we expand our ML application, having our application in GCP ecosystem will be valuable. In this section , we provide information on how to connect and maintain Google Cloud SQL with all relevant documentations.
 
 # Front End
 - Need to define requirements and goals (who will use it)

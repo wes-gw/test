@@ -2,6 +2,9 @@
 
 ### Table of Content
 * [Overview](#overview)
+* [Maintaining Documentation](#maintaining-documentation)
+* [Use Cases](#use-cases)
+* [Requirements](#requirements)
 * [Data](#data)
   + [Talent Data](#talent-data)
   + [Company Data](#company-data)
@@ -10,8 +13,6 @@
 * [Database](#database)
   + [Database Design](#database-design)
   + [Google Cloud SQL](#google-cloud-sql)
-  + [Use Cases](#use-cases)
-  + [Requirements](#requirements)
 * [Front End](#front-end)
 * [Modeling](#modeling)
   + [Predictive Modeling]()
@@ -30,7 +31,6 @@
   + [New Startup Detector](#new-startup-detector)
   + [AI Index](#ai-index)
 * [Risks](#risks)
-* [Maintaining Documentation](#maintaining-documentation)
 * [Development Roadmap](#development-roadmap)
 * [Appendix](#appendix)
   + [List of Systems](#list-of-systems)
@@ -45,6 +45,9 @@ Download the [Glasswing Platform Design Document]() as a Word document.
 
 <br>
 <br>
+# How to Update Documentation
+The documentation in this repository serves as the central knowledge base, written in Markdown format. The README.md file is the home page of all documentations, containing links referencing individual sections. All sections exist in the Documentations folder. To edit a page, click the pencil icon on the right corner. Press the "commit changes" button at the bottom to save any changes. For each commit, we label and describe the changes. We can also make edits from our local repo and commit through terminal, similar to pushing our code. Github automatically tracks revision history. Labeling and commenting our changes provide a clear process for tracking history. 
+
 
 # Data
 The data content we collect and store can be divided up to four sections: Talent, Company, News, and Twitter. For each section, we describe the goal of data collection, the sources and pipelines, and the related challenges. Since data from different sources are all aggregated and stored in a single SQL Database, we also define our process for data deduplication.
@@ -131,10 +134,6 @@ The overall aim of this project was to leverage data science and machine learnin
 - PythonAnyWhere
 - Zapier
 - 123FormBuilder
-
-
-# Maintaining Documentation
-This documentation serves as the central knowledge base and is written in MarkDown file. The README.md file is the home page of the documentation, and with links referencing to individual pages (markdown files). Edit history is tracked automatically and we can label verisons by making releases. To edit a page, click the pencil icon on the right cornor. Press the "commit changes" button at the bottom to save any changes. For each commits, we can also label and describe the changes. We can also edit and commit directly from our computer throug terminal just as we commit our code. 
 
 
 # Development Roadmap

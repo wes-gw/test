@@ -46,7 +46,7 @@ Download the [Glasswing Platform Design Document]() as a Word document.
 <br>
 <br>
 
-# [Maintaining Documentation](Documentations/Data/Maintaining&#32;Documentation.md)
+# [Maintaining Documentation](Documentations/Maintaining&#32;Documentation.md)
 The documentation in this repository serves as the central knowledge base, written in Markdown format. Github provides robust features for versioning, structure, and reference between documentation and code. Clear documentation fosters clear development. Hosting our documentation on Github will help us centralize information while enforcing best practices. This section details how to update and maintain documentation following best practices.  
 
 <br>

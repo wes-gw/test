@@ -119,8 +119,6 @@ Partners, investment, marketing, operations and data teams, firm’s advisors an
 # Marketing & Operations
 **Front-end dependent**
 
-Partners, investment, marketing, operations and data teams will need to do their own due diligence depending on the need, which can be from an investment, marketing, ops and data POVs. 
-
 ## Ownership - Marketing, Platform & Ops
 
 ### Responsibilities
@@ -143,7 +141,6 @@ Partners, investment, marketing, operations and data teams will need to do their
 
 
 # ML/AI  Modeling
-**Front-end dependent**
 
 The data science team will have an ETL pipeline for predictive modeling and will also track changes to the database.
 
@@ -151,7 +148,7 @@ The data science team will have an ETL pipeline for predictive modeling and will
 The data team owns the predictive modeling efforts.
 
 ### Responsibilities
-- Use company information to derive attributes to supplement the people dataset (e.g., successful serial founder etc.) [Export](./Requirements.md#export)
+- Use company information to derive attributes to supplement the people dataset (e.g., successful serial founder etc.) [[Export](./Requirements.md#export)]
 - Develop models which can generate lists of companies of interest, and assess their investment viability 
 - Support all stakeholders in their needs to find, source, update and/or remove data they need in order to help the workflow with correct data, maintain data integrity, and maintain our competitive reputation in the market 
 - Further enrich the data with new information and leverage all data points to work on data projects, such as the AI project. 

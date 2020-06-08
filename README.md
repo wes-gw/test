@@ -57,36 +57,27 @@ The documentation in this repository serves as the central knowledge base, writt
 # Data
 The data content we collect and store can be divided up to four sections: Talent, Company, News, and Twitter. For each section, we describe the goal of data collection, the sources and pipelines, and the related challenges. Since data from different sources are all aggregated and stored in a single SQL Database, we also define our process for data deduplication.
 
-## Talent Data
+## [Talent Data](Documentations/Data/Talent&#32;Data.md)
 The talent data stem from the Talent Database project. The Talent Database project started as a separate project - a database of people in the Glasswing network from LinkedIn connections. Originally the people data was in Airtable as a separate database. To accommodate the complexity of the dataset, we consolidated the data into our cloud SQL database.
-- [first version of the project](data_talent_data_history.md)
-- [Current Documentation](Documentations/Data/Talent&#32;Data.md)
 
-## Company Data
+## [Company Data](Company&#32;Data.md)
 We accumulated multitudes of datasets from various sources for our modeling experiments to predict startup success. To centralize data storage and allow data pipelines to track updates dynamically, we set out to build a machine learning database. We evaluated different solutions and went through multiple iterations. Utlimately, we consolidted the data with all of our other data into our single SQL database as the Glasswing platform to service a variety of requests. 
-- [first version of the project](data_company_data_history.md)
-- [Current Documentation](Company&#32;Data.md)
 
 ## [News Data](data_news_data.md)
 To supplement our data set for modeling experiments, we turned to the media. The media publishes articles frequently and cover a variety of startups. Startups also issues press releases to announce updates such as funding, product launches, and partnership announcements. The narrative and semantics can embed some useful signals about startups. We built a pipeline that extract and store startup articles in our database. Using natural language models, we can potentially understand what startups are being covered in news, how are they being talked about, or related sentiment. Ultimately the data might be of use to our modeling experiments. 
 
-[Full Documentation](data_news_data.md)
-
 ## [Twitter](data_twitter_data.md)
 Twitter is a active platform for startups, investors, and thougt leaders. Most startups have a twitter account and we can potentially use natural language models to uncover more insights from startups' tweets or tweets mentioning startups.
-
-[Full Documentation](data_Twitter_data.md)
-
-<br>
-<br>
-# [Use Cases](database_use_cases.md)
-Since we consolidated data from different project into a single Glasswing Platform, our database has to support a vairety of use cases. In this section we define all of our use cases. 
 
 <br>
 <br>
 
 # [Requirements](database_requirements.md)
 We hope to store the people, company, and deal information in a unified infrastructure, each of these three data categories will have their own schema. The data will be interconnected across the categories in various ways (e.g., the company’s dataset will refer to staff in the people set), but the categories will be in standalone forms. For more a more detailed view, refer to the schema shown in the [UML]().
+<br>
+<br>
+# Use Cases
+fdsfdas
 
 <br>
 <br>
@@ -95,11 +86,11 @@ We hope to store the people, company, and deal information in a unified infrastr
 The database is the cloud SQL database that host all of our data for the Glasswing Platform. 
 We designed the database to accomadate as many requirements as possible. After evaluating different options,  we developed it using Postgres SQL and deployed it to Google Cloud SQL. The documentation contains our design, structure, schema, and analysis of the different options. The use cases and requirements of the Glasswing Platform are also included in this section. 
 
-## Database Design
+## [Database Design](Documentations/Database/Database&#32;Design.md)
 To accommodate our most of our use cases and requirements, we evaluated multiple designs and tested different NoSQL and SQL databases. Ultimately, we landed on Postgres SQL. Our design revolved around the most difficult feature requirement: Timestamp Tracking. The structure is designed in a way that would track updates with timestamps instead of simply overwriting data. In this section, we document the structure and schema of our database, as well as the reasons behind design decisions. 
 
-## Google Cloud SQL
-After evaluating different services for cloud databases, we ultimately landed on Google Cloud SQL. Google Cloud Platform offers a robust set of services for Cloud Machine Learning beyond data base and data storage. As we expand our ML application, having our application in GCP ecosystem will be valuable. In this section , we provide information on how to connect and maintain Google Cloud SQL with all relevant documentations.
+## [Google Cloud SQL]()
+After evaluating different services for cloud databases, we ultimately landed on Google Cloud SQL. Google Cloud Platform offers a robust set of services for Cloud Machine Learning beyond data base and data storage. As we expand our ML application, having our application in GCP ecosystem will be valuable. In this section, we provide information on how to connect and maintain Google Cloud SQL with all relevant documentations.
 
 # Front End
 - Need to define requirements and goals (who will use it)

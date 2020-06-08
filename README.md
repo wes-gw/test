@@ -48,7 +48,8 @@ Download the [Glasswing Platform Design Document]() as a Word document.
 
 # How to Update Documentation
 The documentation in this repository serves as the central knowledge base, written in Markdown format. The README.md file is the home page of all documentations, containing links referencing individual sections. All sections exist in the Documentations folder. To edit a page, click the pencil icon on the right corner. Press the "commit changes" button at the bottom to save any changes. For each commit, we label and describe the changes. We can also make edits from our local repo and commit through terminal, similar to pushing our code. Github automatically tracks revision history. Labeling and commenting our changes provide a clear process for tracking history.
-- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
+
+[Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
 
 <br>
 <br>
@@ -56,23 +57,25 @@ The documentation in this repository serves as the central knowledge base, writt
 # Data
 The data content we collect and store can be divided up to four sections: Talent, Company, News, and Twitter. For each section, we describe the goal of data collection, the sources and pipelines, and the related challenges. Since data from different sources are all aggregated and stored in a single SQL Database, we also define our process for data deduplication.
 
-## [Talent Data](Talent&#32;Data.md)
+## Talent Data
 The talent data stem from the Talent Database project. The Talent Database project started as a separate project - a database of people in the Glasswing network from LinkedIn connections. Originally the people data was in Airtable as a separate database. To accommodate the complexity of the dataset, we consolidated the data into our cloud SQL database.
 - [first version of the project](data_talent_data_history.md)
-- [Current Documentation](data_talent_data.md)
+- [Current Documentation](Talent&#32;Data.md)
 
-## [Company Data](data_company_data.md)
+## Company Data
 We accumulated multitudes of datasets from various sources for our modeling experiments to predict startup success. To centralize data storage and allow data pipelines to track updates dynamically, we set out to build a machine learning database. We evaluated different solutions and went through multiple iterations. Utlimately, we consolidted the data with all of our other data into our single SQL database as the Glasswing platform to service a variety of requests. 
 - [first version of the project](data_company_data_history.md)
-- [Current Documentation](data_company_data.md)
+- [Current Documentation](Company&#32;Data.md)
 
 ## [News Data](data_news_data.md)
 To supplement our data set for modeling experiments, we turned to the media. The media publishes articles frequently and cover a variety of startups. Startups also issues press releases to announce updates such as funding, product launches, and partnership announcements. The narrative and semantics can embed some useful signals about startups. We built a pipeline that extract and store startup articles in our database. Using natural language models, we can potentially understand what startups are being covered in news, how are they being talked about, or related sentiment. Ultimately the data might be of use to our modeling experiments. 
-- [Full Documentation](data_news_data.md)
+
+[Full Documentation](data_news_data.md)
 
 ## [Twitter](data_twitter_data.md)
 Twitter is a active platform for startups, investors, and thougt leaders. Most startups have a twitter account and we can potentially use natural language models to uncover more insights from startups' tweets or tweets mentioning startups.
-- [Full Documentation](data_Twitter_data.md)
+
+[Full Documentation](data_Twitter_data.md)
 
 <br>
 <br>

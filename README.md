@@ -92,13 +92,22 @@ To accommodate our most of our use cases and requirements, we evaluated multiple
 ## [Google Cloud SQL]()
 After evaluating different services for cloud databases, we ultimately landed on Google Cloud SQL. Google Cloud Platform offers a robust set of services for Cloud Machine Learning beyond data base and data storage. As we expand our ML application, having our application in GCP ecosystem will be valuable. In this section, we provide information on how to connect and maintain Google Cloud SQL with all relevant documentations.
 
+<br>
+<br>
+
 # Front End
 - Need to define requirements and goals (who will use it)
 - Analysis comparing building, and BI tools
 - Documented Experiemented with R shiny
 
+<br>
+<br>
+
 # Modeling (need update)
 The overall aim of this project was to leverage data science and machine learning to predict founder and startup success. The target variable for the project is created based on whether a startup can successfully raise a “Series A” funding round (“Opportunity Qualification”). Using data from CrunchBase Pro, we acquired a 2013 snapshot of data which we cleaned and visualized. After performing a review of relevant literature, we created a feature set for the prediction of startup success, which we defined as series A funding. Using this manufactured feature set, which included some features provided by CrunchBase, as well as novel features, we performed several machine learning and deep learning experiments. These experiments were performed after a cleaned company set had been split into train and test sets. Using F1 scores for both classes as the evaluation metrics, we determined the optimal neural network configuration for success identification given our parameters, as well as important features of a successful startup company.
+
+<br>
+<br>
 
 ## [Predictive Modeling]()
 ### Dataset

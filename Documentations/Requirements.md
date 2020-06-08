@@ -221,3 +221,4 @@ Features applied specifically to company data
 |Purpose|A worthy goal would be to track at which point a deal would go offline, or people's decision making would go offline|
 |Required|Nice to Have|
 |Status|Not Started|
+ 

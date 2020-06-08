@@ -12,10 +12,10 @@ To edit a page, click the pencil icon on the right corner and make desired chang
 ![Image of Yaktocat](images/editing.png)
 
 Press the "commit changes" button at the bottom to save any changes. 
-![Image of Yaktocat](/images/commit_changes.png)
+![Image of Yaktocat](/images/commit.png)
 
 For each commit, we label and describe the changes. Labeling and commenting our changes provide a clear process for tracking history.
-![Image of Yaktocat](https://octodex.github.com/images/history_tracking.png)
+![history](/Images/history.png)
 
 We can also make edits from our local repo and commit through terminal, similar to pushing our code.
 

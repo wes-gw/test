@@ -27,7 +27,7 @@ Partners look for new sources to raise the next fund. They need to search, sort,
 - [Section 5.2 Feature A: TIER LEVEL /Connection strength score]
 - [Section 5.2 Feature C: Email and Business Card Reader]
 - [Section 5.2 Feature D: LinkedIn Profile Extraction]
-- [LinkedIn Profile Extraction](requirements)
+- [LinkedIn Profile Extraction](./Requirements.md#linkedin-profile-extraction)
 
 
 

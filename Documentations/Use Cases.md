@@ -21,12 +21,11 @@ Partners look for new sources to raise the next fund. They need to search, sort,
 ### Responsibilities
 - Find information about LPs, family offices, institutional funds etc. [Section 5.1 Feature A: Search, B: Filter & Sort, M: Compare, D: Export]
 - Tagging existing sources of fundraising versus new and potential ones, and adding notes such as last communication and medium of communication, and follow up, dead end, etc. [Section 5.1 Feature C: Tag, G: Add Notes]
-- Manually entering new referrals into the database that’s outside of our network [Section 5.1 Feature E: Import & Edit]
+- Manually entering new referrals into the database that’s outside of our network [[Import and Edit](./Requirements.md#import-and-edit)]
 
 ### Automation
-- [Section 5.2 Feature A: TIER LEVEL /Connection strength score]
-- [Section 5.2 Feature C: Email and Business Card Reader]
-- [Section 5.2 Feature D: LinkedIn Profile Extraction]
+- [[Tier Level](./Requirements.md#tier-level)]
+- [Email and Business Card Reader](./Requirements.md#email-and-business-card-reader)
 - [LinkedIn Profile Extraction](./Requirements.md#linkedin-profile-extraction)
 
 

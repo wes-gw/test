@@ -41,8 +41,8 @@ Partner and investment team need to identify suitable talent and customers in ou
 - Collect new referral information and import interested talents [[Import & Edit](./Requirements.md#import-and-edit)]
 
 ### Automation
-a)	Partners and Investment team should be notified of new talent requests through the notification system [Section 5.2 Feature B: Email notification] 
-- from Glasswing’s talent tracker form [Section 5.1 Feature E: Import & Edit]
+- Partners and Investment team should be notified of new talent requests through the notification system [[Email notification](./Requirements.md#email-nortification)]
+- Import data from Glasswing’s talent tracker form [[Import & Edit](./Requirements.md#import-and-edit)]
 
 
 

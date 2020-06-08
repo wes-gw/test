@@ -98,7 +98,8 @@ Partners, investment, marketing, operations and data teams, firm’s advisors an
 - Conduct market-related research on business economics, go-to-market strategy and expansion plans, market dynamics, market research and market sizing, competitive dynamics analysis, customer interviews and reference checks
 - Manually enter any new data that is collected from: [Import & Edit](./Requirements.md#import-and-edit)
   - Phone: manual entry into the database
-  - In-person, networking events, business traveling – manual entry unless information can be automatically pulled from LinkedIn, a business card, business card etc. Section 5.1 Feature E: Import & Edit
+  - In-person, networking events, business traveling
+  – manual entry unless information can be automatically pulled from LinkedIn, a business card, business card etc. [Import & Edit](./Requirements.md#import-and-edit)
 
 - If the information does not exist or is incorrect: [[Import & Edit](./Requirements.md#import-and-edit), [Timestamp Tracking and Version control](./Requirements.md#timestamp-tracking-and-version-control)
 ]
@@ -110,28 +111,68 @@ Partners, investment, marketing, operations and data teams, firm’s advisors an
 
 
 ### Automation
-- [Email and Business Card Reader](./Requirements.md#email-and-business-card-reader)]
+- [Email and Business Card Reader](./Requirements.md#email-and-business-card-reader)
 - [LinkedIn Profile Extraction](./Requirements.md#linkedin-profile-extraction)
 - [Integration](./Requirements.md#integration)
 
 
+# Marketing & Operations
+**Front-end dependent**
+
+Partners, investment, marketing, operations and data teams will need to do their own due diligence depending on the need, which can be from an investment, marketing, ops and data POVs. 
+
+## Ownership - Marketing, Platform & Ops
+
+### Responsibilities
+- The platform team will access lists and tags for people that we want to develop or strengthen relationships. Integration with Mailchimp and Affinity will also allow them to plan marketing audience and events invitees and track effectiveness. [[Tag](./Requirements.md#tag), [Integration](./Requirements.md#integration)]. Data will be used for: 
+  - Networking events: to increase Glasswing’s awareness in the ecosystem and invite the appropriate audience to each networking event 
+  - Distribution of marketing materials/newsletter: have the ability to share important information and at a regular cadence with different audiences in the ecosystem. In addition, have the ability to alter these lists based on changes regarding change of job, new entrances, etc. 
+- Populate the database with lists of people that attend events that are not in our database
+  - Lists would include people’s full name and other available information [[Import & Edit](./Requirements.md#import-and-edit)]
+  - Lists would populate with data from LinkedIn and other sources [[LinkedIn Profile Extraction](./Requirements.md#linkedIn-profile-extraction)]
+  - Lists would also be used to track LPs, VCs, Angel investors, entrepreneurs to invite to events [[Tag](./Requirements.md#tag), [Integration](./Requirements.md#integration)]
+  - They would create these lists and filter by list name [[Filter and Sort](./Requirements.md#filter-and-sort), [List](./Requirements.md#list)]
+  - They would have the ability to filter by past event attendance [[Filter and Sort](./Requirements.md#filter-and-sort)]
+  - They would leverage these lists for newsletter updates as well [[List](./Requirements.md#list)]
+- Operational procedure:
+  - Have ease and access to information to enhance the operational procedure, systems and principles in the areas of information flow. In addition, support communication with the management team and external parties
+  - Be able to use the database information to build relationships and alliances with external organizations and provide the assistance needed, while being fully informed on all internal communications and decisions 
+
+### Automation
+- Integration with MailChimp, Affinity and other resources used in the future to keep tags and fields up to date [[Dynamic](./Requirements.md#dynamic), [Integration](./Requirements.md#integration)]
 
 
+# ML/AI  Modeling
+**Front-end dependent**
 
+The data science team will have an ETL pipeline for predictive modeling and will also track changes to the database.
 
+## Ownership
+The data team owns the predictive modeling efforts.
 
+### Responsibilities
+- Use company information to derive attributes to supplement the people dataset (e.g., successful serial founder etc.) [Export](./Requirements.md#export)
+- Develop models which can generate lists of companies of interest, and assess their investment viability 
+- Support all stakeholders in their needs to find, source, update and/or remove data they need in order to help the workflow with correct data, maintain data integrity, and maintain our competitive reputation in the market 
+- Further enrich the data with new information and leverage all data points to work on data projects, such as the AI project. 
+- Use data extracted from CrunchBase and/or Pitchbook about companies that are in their pre-seed round of financing 
+  - Main data needed is startup name, founder, founder history, team size, industry, service, type of company
+  - Angel investors, round of financing if any, lifetime of startup 
+- Export structured and unstructured data in bulk for modeling
+  - Using scripts/configuration files, flexibly extract desired data subsets suitable for training, evaluation and testing, and present these to the selected data wrangling and training pipeline. The sub-setting should be specifiable in terms of time (absolute, relative) and company attributes.
+- Data team should keep track when any of the following changes: startup name, founder, founder history, team size, industry, service, type of company, Angel investors, round of financing if any, lifetime of startup. These updates will be updated automatically via CrunchBase API, but human input is needed when CrunchBase miss an update in their database.
 
-
-
-
-
-
-
-
+### Automation
+a)	A UI that periodically delivers analysts a list of companies that meet our investment thesis, automated collected from external source such as CrunchBase API and Accelerator websites [Automated Sourcing List](./Requirements.md#automated-sourcing-list)
+b)	AI should score or rank the startups based on criteria that we know we care about (scoring can be used when ML model is ready to deploy) [Startup Success Score](./Requirements.md#startup-success-score)
+c)	Automatically check for changes in the companies in our database via CrunchBase API (other providers or website) weekly [Dynamic](./Requirements.md#dynamic)
 
 
 ############################################################################################################
+[Automated Sourcing List](./Requirements.md#automated-sourcing-list)
+[Startup Success Score](./Requirements.md#startup-success-score)
 [Compare](./Requirements.md#compare)
+[Dynamic](./Requirements.md#dynamic)
 [Tier Level](./Requirements.md#tier-level)
 [Tag](./Requirements.md#tag)
 [Add Notes](./Requirements.md#add-notes)
@@ -140,6 +181,7 @@ Partners, investment, marketing, operations and data teams, firm’s advisors an
 [Email & Notification](./Requirements.md#email-nortification)]
 [Email and Business Card Reader](./Requirements.md#email-and-business-card-reader)]
 [LinkedIn Profile Extraction](./Requirements.md#linkedIn-profile-extraction)
+[List](./Requirements.md#list)
 [Search](./Requirements.md#search)
 [Filter and Sort](./Requirements.md#filter-and-sort)
 [Compare](./Requirements.md#compare)

@@ -27,7 +27,7 @@ On the high level, there are five major factors that influence our design:
 - Defined [feature requirements]()
 - Defined [use cases]()
 
-We document the design of our database in two formats:  
+We document the design of our database in two formats, serving as a ground truth or “blueprint” to describe the schema:  
 
 - [Schema Unified Modeling Language (UML)]()
 

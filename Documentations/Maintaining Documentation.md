@@ -1,11 +1,3 @@
-# TOC
-- [General](#general)
-  - [Editing](#editing)
-  - []()
-- [Database]
-- [Development Roadmap]
-
-
 # General
 ## Editing 
 To edit a page, click the pencil icon on the right corner and make desired changes.
@@ -45,6 +37,6 @@ Steps on how to update the UML
 Steps on how to update the DDL
 
 # Development Roadmap
-
+We use the [development roadmap]() section to track and prioritize our projects. At the end of each week, we update the progress and share it with the team. Each item should link to the relevant sections of our documentation to indicate where our effort falls. 
 
 

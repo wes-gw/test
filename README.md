@@ -70,12 +70,12 @@ Twitter is a active platform for startups, investors, and thougt leaders. Most s
 <br>
 <br>
 
-# [Requirements](database_requirements.md)
+# [Requirements](Documentations/Requirements.md)
 We hope to store the people, company, and deal information in a unified infrastructure, each of these three data categories will have their own schema. The data will be interconnected across the categories in various ways (e.g., the company’s dataset will refer to staff in the people set), but the categories will be in standalone forms. For more a more detailed view, refer to the schema shown in the [UML]().
 <br>
 <br>
-# Use Cases
-We documented all use cases for our platform and the types of users. For each use cases we also indiciates the relevent workflow and whose responsibility they fall under.
+# [Use Cases](Documentations/Use&#32;Cases.md)
+We document all use cases for our platform and the types of users. This section details the relevant workflow, differentiating between manual responsibilities, and automated processes. We also mark the appropriate features from the requirements section for each workflow. 
 
 
 <br>

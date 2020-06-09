@@ -75,7 +75,8 @@ We hope to store the people, company, and deal information in a unified infrastr
 <br>
 <br>
 # Use Cases
-fdsfdas
+We documented all use cases for our platform and the types of users. For each use cases we also indiciates the relevent workflow and whose responsibility they fall under.
+
 
 <br>
 <br>

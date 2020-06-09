@@ -13,19 +13,16 @@ To edit a page, click the pencil icon on the right corner and make desired chang
 
 <br>
 <br>
-<br>
 
 Press the "commit changes" button at the bottom to save any changes. 
 ![Commit](Images/commit.png)
 
 <br>
 <br>
-<br>
 
 For each commit, we label and describe the changes. Labeling and commenting our changes provide a clear process for tracking history.
 ![history](Images/history.png)
 
-<br>
 <br>
 <br>
 

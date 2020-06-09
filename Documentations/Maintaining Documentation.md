@@ -31,7 +31,7 @@ We can also make edits from our local repo and commit through terminal, similar 
 Refer to the [**Markdown Cheatsheet**](https://guides.github.com/features/mastering-markdown/) for writing in Markdown. 
 
 ## Versioning
-To label versions of our documentation, we create releases. 
+To label versions of our documentation, we create releases. Label the releases with appropriate descriptions to keep a clear development history. As with all file verisons and code verisons, we label the verisons using with the date formatted as "MMDDYYYY".
 
 
 

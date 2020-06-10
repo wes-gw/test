@@ -12,6 +12,8 @@
   + [Deduplication](#deduplication)
 * [Database](#database)
   + [Database Design](#database-design)
+  + [UML](#uml)
+  + [DDL](#ddl)
   + [Google Cloud SQL](#google-cloud-sql)
 * [Front End](#front-end)
 * [Modeling](#modeling)
@@ -88,6 +90,12 @@ We designed the database to accomadate as many requirements as possible. After e
 ## [Database Design](Documentations/Database/Database&#32;Design.md)
 To accommodate our most of our use cases and requirements, we evaluated multiple designs and tested different NoSQL and SQL databases. Ultimately, we landed on Postgres SQL. Our design revolved around the most difficult feature requirement: Timestamp Tracking. The structure is designed in a way that would track updates with timestamps instead of simply overwriting data. In this section, we document the structure and schema of our database, as well as the reasons behind design decisions. 
 
+## [UML](Documentations/Database/UML.png)
+The UML(Unified Modeling Language)file, along with the DDL file, serve as a ground truth or “blueprint” to describe the database schema. The UML is a schema diagram generated from the database, representing the tables, fields, and relationships. This file is updated regularly as our database changes, refer to the [section in Maintaining Documentation]() for best practices on maintaince.
+
+## [DDL](Documentations/Database/DDL.sql)
+The DDL(Data Definition Language)file, along with the UML file, serve as a ground truth or “blueprint” to describe the database schema. The DDL is the SQL script file that generates the entire database. This file is updated regularly as our database changes, refer to the [section in Maintaining Documentation]() for best practices on maintaince.
+
 ## [Google Cloud SQL]()
 After evaluating different services for cloud databases, we ultimately landed on Google Cloud SQL. Google Cloud Platform offers a robust set of services for Cloud Machine Learning beyond data base and data storage. As we expand our ML application, having our application in GCP ecosystem will be valuable. In this section, we provide information on how to connect and maintain Google Cloud SQL with all relevant documentations.
 
@@ -95,9 +103,7 @@ After evaluating different services for cloud databases, we ultimately landed on
 <br>
 
 # Front End
-- Need to define requirements and goals (who will use it)
-- Analysis comparing building, and BI tools
-- Documented Experiemented with R shiny
+The data team is the sole user of the platform currently since it does not have a front-end. Refer to the [Use Cases section]() for the types of users. Most use cases are contingent on a front-end. Refer to the [Requirements section]() for the list of features required for the front-end application. We have evaluated options between existing solutions such as BI tools and building in-house. ([Front-end Analysis section]()) There is also an [early experiment with R shiny]().
 
 <br>
 <br>

@@ -29,11 +29,11 @@ On the high level, there are five major factors that influence our design:
 
 We document the design of our database in two formats, serving as a ground truth or “blueprint” to describe the schema:  
 
-- [Schema Unified Modeling Language (UML)]()
+- [Schema Unified Modeling Language (UML)](./ddl_05122020.sql)
 
     The schema UML details presents a graphical representations of all the tables, fields, and relationships. 
 
-- [Data Document Language (DDL)]()
+- [Data Document Language (DDL)](ddl_05122020.sql)
 
     The data document language file provides the SQL script that creates  the entire database, detailing all tables, fields, data types, and relationships. 
 
